@@ -2,7 +2,10 @@ module github.com/plyr4/munch
 
 go 1.17
 
-require github.com/oakmound/oak/v3 v3.2.2
+require (
+	github.com/oakmound/oak/v3 v3.2.2
+	github.com/sirupsen/logrus v1.8.1
+)
 
 require (
 	dmitri.shuralyov.com/gpu/mtl v0.0.0-20201218220906-28db891af037 // indirect
@@ -19,5 +22,5 @@ require (
 	golang.org/x/image v0.0.0-20201208152932-35266b937fa6 // indirect
 	golang.org/x/mobile v0.0.0-20210220033013-bdb1ca9a1e08 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20190429190828-d89cdac9e872 // indirect
+	golang.org/x/sys v0.0.0-20191026070338-33540a1f6037 // indirect
 )
